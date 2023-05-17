@@ -1,6 +1,17 @@
+Echipa noastra vine in rezolvarea problemei cu urmatoarele solutii:
+1. Implementarea la bariera a unui soft care recunoaste numerele de inmatriculare ale 
+autovehiculelor.
+2. Crearea unei baze de date in care sa fie trecute masinile tuturor studentilor locatari ai campusului 
+si profesorilor pentru a putea intra in Campus fara interactiunea cu o persoana. Studentii locatari si profesorii 
+isi vor face un cont pe site-ul web in care isi vor trece datele persoanale si numarul de inmatriculare al 
+autovehiculului.
+3. Vizitatorii si persoanele care nu locuiesc in Campus vor primi o chitanta cu un cod prin care se vor 
+inregistra pe site-ul web prin intermediul caruia vor face plata si vor sti in orice moment contravaloarea ce 
+trebuie achitata.
+4. Pentru numarul mic de locuri de parcare se doreste delimitarea acestora, pentru a nu mai exista
+problema ocuparii unui loc mai mare decat cel necesar, unde este posibilă parcarea pe diagonala, in loc de 
+cea paralela. Aceasta va avea ca efect cresterea numarului de locuri de parcare.
+5. Fiecare loc de parcare va beneficia de un senzor prin care sa se stie daca acesta este ocupat sau nu.
+6. Crearea unei baze de date in care sa fie actualizat in timp real numarul de locuri de parcare libere 
+din Campus, iar la intrare sa fie afisat acest numar
 
-Aceasta reprezintă o aplicaţie care utilizează o rețea neuronală de tipul YOLOv3 pentru a detecta și recunoaște plăcile de înmatriculare dintr-un set de imagini. Pentru a face acest lucru, codul încarcă modelul YOLOv3, definește directoarele cu fișierele de configurație și listele de clase, încarcă imaginea din fiecare fișier din directorul specificat și aplică rețeaua neuronală pentru a detecta plăcile de înmatriculare. După detectare, plăcile de înmatriculare sunt preluate, transformate în imagini alb-negru și scanate cu ajutorul bibliotecii EasyOCR pentru a recunoaște caracterele din placa de înmatriculare.
-
-Dacă există o potrivire cu placa de înmatriculare a unei mașini raportate ca fiind furată într-o bază de date MySQL, aplicația va trimite un e-mail la o adresă specificată și va actualiza coordonatele geografice ale mașinii în baza de date. În caz contrar, aplicația va continua să ruleze și va trece la detectarea plăcilor de înmatriculare din următoarea imagine din directorul specificat.
-
-Pentru a face aceasta, codul utilizează și biblioteca Geocoder pentru a obține coordonatele geografice ale utilizatorului care rulează aplicația și biblioteca SMTPlib pentru a trimite e-mailul către adresa specificată.
