@@ -1,4 +1,4 @@
-Loc 1 - Electron 2023
+Locul 1 - Electron 2023
 
 Echipa noastra vine in rezolvarea problemei cu urmatoarele solutii:
 1. Implementarea la bariera a unui soft care recunoaste numerele de inmatriculare ale 
