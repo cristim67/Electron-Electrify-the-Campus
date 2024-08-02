@@ -1,24 +1,15 @@
-Locul 1 - Electron 2023
+First Place - Electron 2023
 
-Echipa noastra vine in rezolvarea problemei cu urmatoarele solutii:
-1. Implementarea la bariera a unui soft care recunoaste numerele de inmatriculare ale 
-autovehiculelor.
+Our team addresses the problem with the following solutions:
 
-2. Crearea unei baze de date in care sa fie trecute masinile tuturor studentilor locatari ai campusului 
-si profesorilor pentru a putea intra in Campus fara interactiunea cu o persoana. Studentii locatari si profesorii 
-isi vor face un cont pe site-ul web in care isi vor trece datele persoanale si numarul de inmatriculare al 
-autovehiculului.
+Implementation at the barrier of a software that recognizes vehicle license plates.
 
-3. Vizitatorii si persoanele care nu locuiesc in Campus vor primi o chitanta cu un cod prin care se vor 
-inregistra pe site-ul web prin intermediul caruia vor face plata si vor sti in orice moment contravaloarea ce 
-trebuie achitata.
+Creation of a database that records the vehicles of all students residing in the campus and the professors, allowing them to enter the campus without interacting with a person. Resident students and professors will create an account on the website where they will enter their personal details and vehicle license plate numbers.
 
-4. Pentru numarul mic de locuri de parcare se doreste delimitarea acestora, pentru a nu mai exista
-problema ocuparii unui loc mai mare decat cel necesar, unde este posibilă parcarea pe diagonala, in loc de 
-cea paralela. Aceasta va avea ca efect cresterea numarului de locuri de parcare.
+Visitors and non-residents of the campus will receive a receipt with a code to register on the website, through which they will make payments and always know the amount due.
 
-5. Fiecare loc de parcare va beneficia de un senzor prin care sa se stie daca acesta este ocupat sau nu.
+Due to the limited number of parking spaces, we aim to delineate these spaces to avoid the problem of occupying more space than necessary, such as parking diagonally instead of parallel. This will effectively increase the number of parking spaces.
 
-6. Crearea unei baze de date in care sa fie actualizat in timp real numarul de locuri de parcare libere 
-din Campus, iar la intrare sa fie afisat acest numar
+Each parking space will be equipped with a sensor to indicate whether it is occupied or not.
 
+Creation of a database that will be updated in real-time with the number of free parking spaces in the campus, and this number will be displayed at the entrance.
